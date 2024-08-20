@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+*{ 
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color: black;
+}
+.main {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/5e16108c-fd30-46de-9bb8-0b4e1bbbc509/29d8d7d7-83cc-4b5f-aa9b-6fd4f68bfaa6/IN-en-20240205-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  height: 90vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1000px, 100vw);
+  position: relative;
+}
+.main .box {
+  height: 90vh;
+  width: 100%;
+  opacity: 0.7;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+nav {
+  padding-top: 14px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  max-width: 77vw;
+  align-items: center;
+  height: 62px;
+}
+nav img {
+  width: 149px;
+  position: relative;
+  z-index: 10;
+}
+nav button,
+.nav_btn {
+  position: relative;
+  z-index: 10;
+}
+.nav_btn {
+  width: 17rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav_btn select {
+  height: 30px;
+  width: 115px;
+  padding-left: 30px;
+  opacity: 1;
+  background-color: transparent;
+  border: 1;
+  border-color: gray;
+  color: white;
+  border-radius: 3px;
+  font-size: medium;
+}
+.nav_btn button {
+  background-color: rgb(229 9 20);
+  color: white;
+  width: 72px;
+  border-radius: 5px;
+  border: 0;
+  font-weight: 200;
+  font-size: 15px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.lang {
+  display : flex; 
+  position: relative;
+
+} 
+.lang img{
+    position: relative;
+    left:27px;
+    top:6px;
+    height: 18px;
+    width: 18px;
+}
+.mainCont {
+  font-family: "Martel Sans", sans-serif;
+  height: calc(100% - 76px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 18px;
+  padding:0 30px;
+}
+.mainCont> :first-child{
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+.mainCont> :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.mainCont> :nth-child(3){
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+.seperation{
+    height: 11px;
+    background-color: rgb(35 35 35);
+}
+.signin_btn{
+    display: flex;
+    justify-content: space-between;
+}
+.signin_btn input{
+    background-color: black;
+    opacity: 0.7;
+    margin-right: 20px;
+    height: 50px;
+    width:350px;
+    border-radius: 4px;
+    border:1px solid white;
+    border-color: white;
+    padding-left: 15px;
+    color:white;
+    font-size: 17px;
+}
+.signin_btn button{
+    background-color: rgb(229 9 20);
+    color: white;
+    border: 0;
+    height: 50px;
+    width: 150px;
+    border-radius: 4px;
+    font-size:24px;
+    font-weight: 470;
+    line-height: 24px;
+    cursor: pointer;
+
+}
+
+/* the second sec start */
+
+.sec_sect{
+  font-family: "Martel Sans", sans-serif;
+  padding-top: 72px;
+  height: auto;
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  gap:90px;
+  padding-bottom: 120px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.txt1{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  height:30vh;
+  width:40vw;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+.txt1> :first-child{
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+}
+.txt1> :nth-child(2){
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.imgp1{
+  padding-right: 50px;
+  position:relative;
+}
+.overlay {
+  position: absolute;
+  bottom: 4px;
+  right: 20px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center image within overlay */
+}
